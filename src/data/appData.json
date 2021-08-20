@@ -1,0 +1,311 @@
+[
+    {
+        "category": "Visa Subclass",
+        "headLineQuestion": "Which visa Subclass are you applying for?",
+        "options": [
+            {
+                "description": "Skilled Independent visa Subclass 189",
+                "requirements": [
+                    {"description": "You must have an occupation on the MLTSSL." }
+                ],
+                "points": 5
+            },
+            {
+                "description": "Skilled Nominated visa Subclass 190",
+                "requirements": [
+                    {"description": "Requires nomination by a State or Territory government." },
+                    {"description": "You must have an occupation on the MLTSSL or STSOL." }
+                ],
+                "points": 5
+            },
+            {
+                "description": "Skilled Work Regional (Provisional) visa Subclass 491",
+                "requirements": [
+                    {"description": "Requires nomination by a State or Territory government, or sponsorship by a suitable family member." },
+                    {"description": "You must have an occupation on the MLTSSL or STSOL or ROL." }                    
+                ],
+                "points": 5
+            }
+        ]
+    },
+    {
+        "category": "Age",
+        "headLineQuestion": "Your age at the time of invitation to apply for the visa.",
+        "options": [
+            {
+                "description": "18 to 24",
+                "points": 25
+            },
+            {
+                "description": "25 to 32",
+                "points": 30
+            },
+            {
+                "description": "33 to 39",
+                "points": 25
+            },
+            {
+                "description": "40 to 44",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "category": "English Language",
+        "headLineQuestion": "What are your English Language qualifications at the time of invitation to apply for the visa?",
+        "options": [
+            {
+                "description": "Competent English",
+                "points": 0,
+                "requirements": [
+                    {
+                        "description": "Passport from UK, USA, Canada, NZ or Ireland; or"
+                    },
+                    {
+                        "description": "IELTS: at least 6 in each component; or"
+                    },
+                    {
+                        "description": "OET: at least 'B' in each component; or"
+                    },
+                    {
+                        "description": "TOEFL iBT: 12 in Listening, 13 Reading, 21 Writing, 18 Speaking; or"
+                    },
+                    {
+                        "description": "PTE Academic: At least 50 in each component; or"
+                    },
+                    {
+                        "description": "Cambridge (CAE): At least 169 in each component"
+                    }
+                ]
+            },
+            {
+                "description": "Proficient English",
+                "points": 10,
+                "requirements": [
+                    {
+                        "description": "IELTS: at least 7 in each component; or"
+                    },
+                    {
+                        "description": "OET: at least 'B' in each component; or"
+                    },
+                    {
+                        "description": "OET: at least 'B' in each component; or"
+                    },
+                    {
+                        "description": "TOEFL iBT: 24 in Listening, 24 Reading, 27 Writing, 23 Speaking; or"
+                    },
+                    {
+                        "description": "PTE Academic: At least 65 in each component; or"
+                    },
+                    {
+                        "description": "Cambridge (CAE): At least 185 in each component"
+                    }
+                ]
+            },
+            {
+                "description": "Superior English",
+                "points": 20,
+                "requirements": [
+                    {
+                        "description": "IELTS: at least 8 in each component; or"
+                    },
+                    {
+                        "description": "OET: at least 'A' in each component; or"
+                    },
+                    {
+                        "description": "TOEFL iBT: 28 in Listening, 29 Reading, 30 Writing, 26 Speaking; or"
+                    },
+                    {
+                        "description": "TOEFL iBT: 24 in Listening, 24 Reading, 27 Writing, 23 Speaking; or"
+                    },
+                    {
+                        "description": "PTE Academic: At least 79 in each component; or"
+                    },
+                    {
+                        "description": "Cambridge (CAE): At least 200 in each component"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overseas Work Experience",
+        "headLineQuestion": "In the last 10 years, how long have you worked in your nominated skilled occupation or closely related occupation outside Australia?",
+        "options": [
+            {
+                "description": "8 years or more",
+                "points": 15
+            },
+            {
+                "description": "5 to 7 years",
+                "points": 10
+            },
+            {
+                "description": "3 to 4 years",
+                "points": 5
+            },
+            {
+                "description": "Less than 3 years",
+                "points": 0
+            }
+        ],
+        "requirements": [
+            "For the employment to be counted it must be at least 20 hours per week for remuneration",
+            "The maximum points that can be awarded for 'Overseas Work Experience' and 'Australian Work Experience' combined, is 20 points"
+        ]
+    },
+    {
+        "category": "Australian Work Experience",
+        "headLineQuestion": "In the last 10 years, how long have you worked in your nominated skilled occupation or closely related occupation in Australia?",
+        "options": [
+            {
+                "description": "8 years or more",
+                "points": 20
+            },
+            {
+                "description": "5 to 7 years",
+                "points": 15
+            },
+            {
+                "description": "3 to 4 years",
+                "points": 10
+            },
+            {
+                "description": "1 to 2 years",
+                "points": 5
+            },
+            {
+                "description": "Less than 3 years",
+                "points": 0
+            }
+        ],
+        "requirements": [
+            "The maximum points that can be awarded for 'Overseas Work Experience' and 'Australian Work Experience' combined, is 20 points"
+        ]
+    },
+    {
+        "category": "Educational Qualifications",
+        "headLineQuestion": "What is your highest qualification?",
+        "options": [
+            {
+                "description": "A Doctorate degree (PhD) from an Australian educational institution or a Doctorate from another educational institution that is of a recognised standard",
+                "points": 20
+            },
+            {
+                "description": "A Bachelor degree from an Australian educational institution or a Bachelor qualification, from another educational institution that is of a recognised standard",
+                "points": 15
+            },
+            {
+                "description": "A diploma or trade qualification completed in Australia; or other award or qualification recognised by the skills assessing authority",
+                "points": 10
+            },
+            {
+                "description": "No Recognised Qualifications",
+                "points": 0
+            }
+        ]
+    },
+    {
+        "category": "Australian Educational Qualification",
+        "headLineQuestion": "Degree, diploma, advanced diploma or trade qualification from an Australian educational institution which took at least 2 years of full-time study and was taught in English.",
+        "options": [
+            {
+                "description": "Yes",
+                "points": 5
+            },
+            {
+                "description": "No",
+                "points": 0
+            }
+        ]
+    },
+    {
+        "category": "Specialist Educational Qualification",
+        "headLineQuestion": "A Masters degree by research or a Doctorate degree from an Australian educational institution that included at least two academic years in a relevant field (Natural and Physical Sciences, Information Technology or Engineering and Related Technologies).",
+        "options": [
+            {
+                "description": "Yes",
+                "points": 10
+            },
+            {
+                "description": "No",
+                "points": 0
+            }
+        ]
+    },
+    {
+        "category": "Accredited Community Language",
+        "headLineQuestion": "Do you hold any one of the following?",
+        "options": [
+            {
+                "description": "Yes",
+                "requirements": [
+                    "Accreditation at the paraprofessional level or above;",
+                    "Certification at the certified provisional level or above;",
+                    "A community language credential"
+                ],
+                "points": 5
+            },
+            {
+                "description": "No",
+                "points": 0
+            }
+        ]
+    },
+    {
+        "category": "Partner Qualifications",
+        "headLineQuestion": "Do you have a partner (spouse or de facto partner) who meets the following criteria?",
+        "options": [
+            {
+                "description": "10 points (couple)",
+                "requirements": [
+                    {"description": "My partner is aged under 45, and"},
+                    {"description": "My partner has Competent English, and"},
+                    {"description": "My partner is an applicant of the same subclass of visa as me, and"},
+                    {"description": "My partner nominated a suitable skilled occupation and obtained a positive skills assessment (that is not for a Subclass 485 visa)"}
+                ],
+                "points": 10
+            },
+            {
+                "description": "10 points (single)",
+                "requirements": [
+                    {"description": "I don’t have a spouse or de facto partner, or"},
+                    {"description": "My partner is an Australian permanent resident or an Australian citizen"}
+                ],
+                "points": 10
+            },
+            {
+                "description": "5 points",
+                "requirements": [
+                    {"description": "My partner has Competent English, and"},
+                    {"description": "My partner is an applicant of the same subclass of visa as me, and"},
+                    {"description": "My partner is not an Australian permanent resident or an Australian citizen"}
+                ],
+                "points": 5
+            },
+            {
+                "description": "0 points",
+                "requirements": [
+                    "None of the above"
+                ],
+                "points": 0
+            }
+        ]
+    },
+    {
+        "category": "Professional Year in Australia",
+        "headLineQuestion": "Did you complete a professional year program in Australia in your nominated skilled occupation for at least 12 months in the 48 months immediately before the time of invitation to apply for the visa?",
+        "options": [
+            {
+                "description": "Yes",
+                "requirements": [],
+                "points": 5
+            },
+            {
+                "description": "No",
+                "requirements": [],
+                "points": 0
+            }
+        ]
+    }
+]

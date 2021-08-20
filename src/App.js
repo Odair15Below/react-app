@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { createTheme, CssBaseline, ThemeProvider, responsiveFontSizes, Container, Alert, Box, Typography } from '@material-ui/core';
+import CategoriesTabs from './components/CategoriesTabs';
+import ButtonAppBar from './components/NavBar';
+import ScoreBar from './components/ScoreBar';
+import { getDarkModePreference } from './store/app';
+import { useSelector } from 'react-redux';
 
-function App() {
+export default function App() {
+
+  // dark theme handling
+  const preferDarkMode = useSelector(getDarkModePreference);
+  let theme = createTheme({
+    palette: {
+      mode: preferDarkMode ? 'dark' : 'light',
+    },
+  });
+  theme = responsiveFontSizes(theme);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <React.StrictMode>
+        <CssBaseline />
+        <ButtonAppBar />
+        <Container sx={{ padding: 0 }} maxWidth="md">
+          <ScoreBar />
+          <Box m={2} >
+            <Alert severity="info" m='2' >
+              <Typography variant='caption'>Reply to the below questions and get your score for Australian skill visa program.</Typography>
+            </Alert>
+          </Box>
+
+          <CategoriesTabs />
+        </Container>
+      </React.StrictMode>
+    </ThemeProvider>
   );
 }
-
-export default App;
